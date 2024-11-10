@@ -10,13 +10,13 @@ sudo apt install nodejs
 sudo apt install npm
 
 #clone the repository
-git clone https://github.com/sahil7023/aws-ec2-script-for-launching-instances.git
+git clone https://github.com/sahil7023/aws-ec2-script-for-launching-instances.git /home/ubuntu/project
 
 #cd in the folder
-cd Aws-Demo-Project
+cd /home/ubuntu/project
 
 #install packages
-npm install
+sudo npm install
 
 #turn up the server
-npx p2 start index.js
+sudo npx pm2 start index.js
